@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "YMS Axioma",
+    "slug": "yms-axioma",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./android/app/src/main/res/drawable/splash.xml",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a1a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "backgroundColor": "#1a1a1a"
+      },
+      "package": "com.axioma.yms",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    "description": "YMS Axioma - Sistema de Gerenciamento de Pátios e Operações de Motoristas. Desenvolvido pela Axioma Dados.",
+    "owner": "axioma-dados"
+  }
+}
